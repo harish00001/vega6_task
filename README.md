@@ -1,2 +1,2 @@
-# SendPulse Connect
-A rich email marketing software
+# test project
+A Test Project 
