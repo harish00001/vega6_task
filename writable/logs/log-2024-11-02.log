@@ -1,0 +1,1708 @@
+INFO - 2024-11-02 06:36:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 06:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-02 07:02:34 --> mysqli_sql_exception: Invalid default value for 'cr_date' in /var/www/html/personal/SendPulse-Connect/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /var/www/html/personal/SendPulse-Connect/system/Database/MySQLi/Connection.php(312): mysqli->query()
+#1 /var/www/html/personal/SendPulse-Connect/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/personal/SendPulse-Connect/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/personal/SendPulse-Connect/system/Database/Forge.php(570): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/personal/SendPulse-Connect/app/Database/Migrations/2024-11-02-070111_Menu.php(74): CodeIgniter\Database\Forge->createTable()
+#5 /var/www/html/personal/SendPulse-Connect/system/Database/MigrationRunner.php(867): App\Database\Migrations\Menu->up()
+#6 /var/www/html/personal/SendPulse-Connect/system/Database/MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /var/www/html/personal/SendPulse-Connect/system/Commands/Database/Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest()
+#8 /var/www/html/personal/SendPulse-Connect/system/CLI/Commands.php(70): CodeIgniter\Commands\Database\Migrate->run()
+#9 /var/www/html/personal/SendPulse-Connect/system/CLI/Console.php(48): CodeIgniter\CLI\Commands->run()
+#10 /var/www/html/personal/SendPulse-Connect/system/Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 /var/www/html/personal/SendPulse-Connect/system/Boot.php(104): CodeIgniter\Boot::runCommand()
+#12 /var/www/html/personal/SendPulse-Connect/spark(84): CodeIgniter\Boot::bootSpark()
+#13 {main}
+ERROR - 2024-11-02 07:04:35 --> mysqli_sql_exception: Invalid default value for 'cr_date' in /var/www/html/personal/SendPulse-Connect/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /var/www/html/personal/SendPulse-Connect/system/Database/MySQLi/Connection.php(312): mysqli->query()
+#1 /var/www/html/personal/SendPulse-Connect/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/personal/SendPulse-Connect/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/personal/SendPulse-Connect/system/Database/Forge.php(570): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/personal/SendPulse-Connect/app/Database/Migrations/2024-11-02-070111_Menu.php(73): CodeIgniter\Database\Forge->createTable()
+#5 /var/www/html/personal/SendPulse-Connect/system/Database/MigrationRunner.php(867): App\Database\Migrations\Menu->up()
+#6 /var/www/html/personal/SendPulse-Connect/system/Database/MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /var/www/html/personal/SendPulse-Connect/system/Commands/Database/Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest()
+#8 /var/www/html/personal/SendPulse-Connect/system/CLI/Commands.php(70): CodeIgniter\Commands\Database\Migrate->run()
+#9 /var/www/html/personal/SendPulse-Connect/system/CLI/Console.php(48): CodeIgniter\CLI\Commands->run()
+#10 /var/www/html/personal/SendPulse-Connect/system/Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 /var/www/html/personal/SendPulse-Connect/system/Boot.php(104): CodeIgniter\Boot::runCommand()
+#12 /var/www/html/personal/SendPulse-Connect/spark(84): CodeIgniter\Boot::bootSpark()
+#13 {main}
+ERROR - 2024-11-02 07:04:50 --> mysqli_sql_exception: Invalid default value for 'cr_date' in /var/www/html/personal/SendPulse-Connect/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /var/www/html/personal/SendPulse-Connect/system/Database/MySQLi/Connection.php(312): mysqli->query()
+#1 /var/www/html/personal/SendPulse-Connect/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/personal/SendPulse-Connect/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/personal/SendPulse-Connect/system/Database/Forge.php(570): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/personal/SendPulse-Connect/app/Database/Migrations/2024-11-02-070111_Menu.php(73): CodeIgniter\Database\Forge->createTable()
+#5 /var/www/html/personal/SendPulse-Connect/system/Database/MigrationRunner.php(867): App\Database\Migrations\Menu->up()
+#6 /var/www/html/personal/SendPulse-Connect/system/Database/MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /var/www/html/personal/SendPulse-Connect/system/Commands/Database/Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest()
+#8 /var/www/html/personal/SendPulse-Connect/system/CLI/Commands.php(70): CodeIgniter\Commands\Database\Migrate->run()
+#9 /var/www/html/personal/SendPulse-Connect/system/CLI/Console.php(48): CodeIgniter\CLI\Commands->run()
+#10 /var/www/html/personal/SendPulse-Connect/system/Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 /var/www/html/personal/SendPulse-Connect/system/Boot.php(104): CodeIgniter\Boot::runCommand()
+#12 /var/www/html/personal/SendPulse-Connect/spark(84): CodeIgniter\Boot::bootSpark()
+#13 {main}
+INFO - 2024-11-02 07:22:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-02 07:22:02 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/includes/footer.php"
+[Method: GET, Route: menu]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 3 APPPATH/Views/admin/menu/index.php(229): view()
+ 4 SYSTEMPATH/View/View.php(234): include('/var/www/html/personal/SendPulse-Connect/app/Views/admin/menu/index.php')
+ 5 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Admin/Menu.php(33): view()
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->index()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+14 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 07:22:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 07:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 07:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 07:23:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 07:23:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 07:23:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 07:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 07:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 07:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 07:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 07:40:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 07:45:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 07:45:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 07:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 07:46:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 07:48:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 07:55:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:04:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:06:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:06:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:06:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:08:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:11:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:12:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:12:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 08:12:16 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH/Helpers/easy_helper.php on line 307.
+ 1 APPPATH/Controllers/Admin/Menu.php(44): where_string([...], [...], [...])
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+WARNING - 2024-11-02 08:12:16 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH/Helpers/easy_helper.php on line 308.
+ 1 APPPATH/Controllers/Admin/Menu.php(44): where_string([...], [...], [...])
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 08:12:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 08:12:24 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH/Helpers/easy_helper.php on line 307.
+ 1 APPPATH/Controllers/Admin/Menu.php(44): where_string([...], [...], [...])
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+WARNING - 2024-11-02 08:12:24 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH/Helpers/easy_helper.php on line 308.
+ 1 APPPATH/Controllers/Admin/Menu.php(44): where_string([...], [...], [...])
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+WARNING - 2024-11-02 08:12:24 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH/Helpers/easy_helper.php on line 307.
+ 1 APPPATH/Controllers/Admin/Menu.php(44): where_string([...], [...], [...])
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+WARNING - 2024-11-02 08:12:24 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH/Helpers/easy_helper.php on line 308.
+ 1 APPPATH/Controllers/Admin/Menu.php(44): where_string([...], [...], [...])
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 08:12:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:13:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:13:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:13:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:14:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:14:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:16:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:16:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:22:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:22:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 08:22:35 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 08:25:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:25:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 08:25:37 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 08:25:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:26:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:26:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 08:26:01 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 08:33:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 08:33:27 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 08:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 08:33:28 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 08:33:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 08:33:30 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 08:39:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 08:39:28 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 08:42:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:42:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 08:42:53 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 08:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 08:43:09 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 08:43:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:43:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:43:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 08:43:27 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 08:43:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:43:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 08:43:40 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 08:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 08:43:58 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 08:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 08:44:31 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 08:44:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 08:44:43 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 08:45:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 08:45:09 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 08:46:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:46:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:46:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 08:46:09 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH/Helpers/easy_helper.php on line 307.
+ 1 APPPATH/Controllers/Admin/Menu.php(44): where_string([...], [...], [...])
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+WARNING - 2024-11-02 08:46:09 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH/Helpers/easy_helper.php on line 308.
+ 1 APPPATH/Controllers/Admin/Menu.php(44): where_string([...], [...], [...])
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+WARNING - 2024-11-02 08:46:09 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH/Helpers/easy_helper.php on line 307.
+ 1 APPPATH/Controllers/Admin/Menu.php(44): where_string([...], [...], [...])
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+WARNING - 2024-11-02 08:46:09 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH/Helpers/easy_helper.php on line 308.
+ 1 APPPATH/Controllers/Admin/Menu.php(44): where_string([...], [...], [...])
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+WARNING - 2024-11-02 08:46:09 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH/Helpers/easy_helper.php on line 307.
+ 1 APPPATH/Controllers/Admin/Menu.php(44): where_string([...], [...], [...])
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+WARNING - 2024-11-02 08:46:09 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH/Helpers/easy_helper.php on line 308.
+ 1 APPPATH/Controllers/Admin/Menu.php(44): where_string([...], [...], [...])
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+WARNING - 2024-11-02 08:46:09 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 08:46:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:46:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 08:46:58 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 08:47:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:47:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 08:47:24 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 08:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 08:47:52 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 08:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:47:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 08:47:57 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 08:48:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:48:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 08:48:18 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 08:48:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:48:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 08:48:35 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 08:49:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:49:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 08:49:20 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 08:49:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:49:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 08:49:58 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 08:56:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:56:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 08:56:16 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 08:56:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 08:56:26 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH/Helpers/easy_helper.php on line 307.
+ 1 APPPATH/Controllers/Admin/Menu.php(44): where_string([...], [...], [...])
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+WARNING - 2024-11-02 08:56:26 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH/Helpers/easy_helper.php on line 308.
+ 1 APPPATH/Controllers/Admin/Menu.php(44): where_string([...], [...], [...])
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+WARNING - 2024-11-02 08:56:26 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH/Helpers/easy_helper.php on line 307.
+ 1 APPPATH/Controllers/Admin/Menu.php(44): where_string([...], [...], [...])
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+WARNING - 2024-11-02 08:56:26 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH/Helpers/easy_helper.php on line 308.
+ 1 APPPATH/Controllers/Admin/Menu.php(44): where_string([...], [...], [...])
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 08:56:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 08:56:27 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH/Helpers/easy_helper.php on line 307.
+ 1 APPPATH/Controllers/Admin/Menu.php(44): where_string([...], [...], [...])
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+WARNING - 2024-11-02 08:56:27 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH/Helpers/easy_helper.php on line 308.
+ 1 APPPATH/Controllers/Admin/Menu.php(44): where_string([...], [...], [...])
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+WARNING - 2024-11-02 08:56:27 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH/Helpers/easy_helper.php on line 307.
+ 1 APPPATH/Controllers/Admin/Menu.php(44): where_string([...], [...], [...])
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+WARNING - 2024-11-02 08:56:27 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH/Helpers/easy_helper.php on line 308.
+ 1 APPPATH/Controllers/Admin/Menu.php(44): where_string([...], [...], [...])
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 08:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 08:56:32 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 08:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 08:56:48 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 08:57:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:57:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 08:57:07 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 08:57:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:57:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 08:57:29 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 08:57:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 08:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 08:57:42 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 08:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 08:57:50 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 08:57:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 08:57:51 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 08:57:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 08:57:51 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 08:57:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 08:57:56 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH/Helpers/easy_helper.php on line 307.
+ 1 APPPATH/Controllers/Admin/Menu.php(44): where_string([...], [...], [...])
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+WARNING - 2024-11-02 08:57:56 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH/Helpers/easy_helper.php on line 308.
+ 1 APPPATH/Controllers/Admin/Menu.php(44): where_string([...], [...], [...])
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+WARNING - 2024-11-02 08:57:56 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 08:57:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 08:57:57 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH/Helpers/easy_helper.php on line 307.
+ 1 APPPATH/Controllers/Admin/Menu.php(44): where_string([...], [...], [...])
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+WARNING - 2024-11-02 08:57:57 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH/Helpers/easy_helper.php on line 308.
+ 1 APPPATH/Controllers/Admin/Menu.php(44): where_string([...], [...], [...])
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+WARNING - 2024-11-02 08:57:57 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 08:57:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 08:57:57 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH/Helpers/easy_helper.php on line 307.
+ 1 APPPATH/Controllers/Admin/Menu.php(44): where_string([...], [...], [...])
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+WARNING - 2024-11-02 08:57:57 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH/Helpers/easy_helper.php on line 308.
+ 1 APPPATH/Controllers/Admin/Menu.php(44): where_string([...], [...], [...])
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+WARNING - 2024-11-02 08:57:57 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 08:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 08:57:58 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH/Helpers/easy_helper.php on line 307.
+ 1 APPPATH/Controllers/Admin/Menu.php(44): where_string([...], [...], [...])
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+WARNING - 2024-11-02 08:57:58 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH/Helpers/easy_helper.php on line 308.
+ 1 APPPATH/Controllers/Admin/Menu.php(44): where_string([...], [...], [...])
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+WARNING - 2024-11-02 08:57:58 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 08:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 08:57:58 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH/Helpers/easy_helper.php on line 307.
+ 1 APPPATH/Controllers/Admin/Menu.php(44): where_string([...], [...], [...])
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+WARNING - 2024-11-02 08:57:58 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH/Helpers/easy_helper.php on line 308.
+ 1 APPPATH/Controllers/Admin/Menu.php(44): where_string([...], [...], [...])
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+WARNING - 2024-11-02 08:57:58 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 08:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 08:57:58 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH/Helpers/easy_helper.php on line 307.
+ 1 APPPATH/Controllers/Admin/Menu.php(44): where_string([...], [...], [...])
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+WARNING - 2024-11-02 08:57:58 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH/Helpers/easy_helper.php on line 308.
+ 1 APPPATH/Controllers/Admin/Menu.php(44): where_string([...], [...], [...])
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+WARNING - 2024-11-02 08:57:58 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 08:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 08:57:58 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH/Helpers/easy_helper.php on line 307.
+ 1 APPPATH/Controllers/Admin/Menu.php(44): where_string([...], [...], [...])
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+WARNING - 2024-11-02 08:57:58 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH/Helpers/easy_helper.php on line 308.
+ 1 APPPATH/Controllers/Admin/Menu.php(44): where_string([...], [...], [...])
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+WARNING - 2024-11-02 08:57:58 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 08:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 08:57:58 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH/Helpers/easy_helper.php on line 307.
+ 1 APPPATH/Controllers/Admin/Menu.php(44): where_string([...], [...], [...])
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+WARNING - 2024-11-02 08:57:58 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH/Helpers/easy_helper.php on line 308.
+ 1 APPPATH/Controllers/Admin/Menu.php(44): where_string([...], [...], [...])
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+WARNING - 2024-11-02 08:57:58 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 08:58:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 08:58:10 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH/Helpers/easy_helper.php on line 307.
+ 1 APPPATH/Controllers/Admin/Menu.php(44): where_string([...], [...], [...])
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+WARNING - 2024-11-02 08:58:10 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH/Helpers/easy_helper.php on line 308.
+ 1 APPPATH/Controllers/Admin/Menu.php(44): where_string([...], [...], [...])
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 08:58:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 08:58:15 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH/Helpers/easy_helper.php on line 307.
+ 1 APPPATH/Controllers/Admin/Menu.php(44): where_string([...], [...], [...])
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+WARNING - 2024-11-02 08:58:15 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH/Helpers/easy_helper.php on line 308.
+ 1 APPPATH/Controllers/Admin/Menu.php(44): where_string([...], [...], [...])
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+WARNING - 2024-11-02 08:58:15 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 09:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 09:06:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 09:06:23 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 09:32:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 09:32:26 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 09:32:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 09:32:30 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 09:32:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 09:32:32 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 15:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 15:57:05 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 15:59:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 15:59:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 16:00:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 16:00:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 16:01:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 16:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 16:03:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 16:03:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 16:03:14 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 16:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 16:06:36 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 16:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 16:06:36 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 16:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 16:06:36 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 16:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 16:06:36 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 16:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 16:06:36 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 16:06:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 16:06:41 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 16:09:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 16:09:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 16:09:31 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 16:10:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 16:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 16:10:07 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 16:10:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 16:10:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 16:10:33 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 16:11:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 16:11:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 16:11:05 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 16:12:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 16:12:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 16:12:50 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 16:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 16:51:00 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 16:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 16:51:00 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 16:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 16:51:00 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 16:51:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 16:51:01 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 16:51:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 16:51:01 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 16:51:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 16:51:08 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 16:51:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 16:51:08 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 16:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 16:51:09 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 16:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 16:51:09 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 16:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 16:51:09 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 16:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 16:51:09 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 16:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 16:51:10 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 16:51:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 16:51:18 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 16:51:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 16:51:18 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 16:51:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 16:51:18 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 16:51:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 16:51:18 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 16:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 16:51:19 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 16:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 16:51:19 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 16:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 16:51:19 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 16:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 16:51:19 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 16:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 16:51:19 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 16:51:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 16:51:20 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 16:51:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 16:51:20 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 16:51:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 16:51:20 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 16:51:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 16:51:20 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 16:51:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 16:51:21 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 16:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 16:51:21 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 16:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 16:51:21 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 17:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 17:44:22 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 17:44:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 17:44:23 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 17:44:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 17:44:24 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 17:44:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 17:44:24 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 17:44:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 17:44:24 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 17:44:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 17:44:25 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 17:44:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 17:44:25 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 17:44:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 17:44:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 17:44:33 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 17:44:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 17:44:36 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 17:54:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 17:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 17:54:30 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 17:57:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 17:57:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 17:57:02 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 17:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 17:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 17:58:09 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 18:01:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 18:01:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 18:01:36 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 18:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 18:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 18:03:39 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 18:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 18:05:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 18:05:08 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 18:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 18:05:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 18:05:32 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 18:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 18:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 18:08:00 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 18:08:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 18:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 18:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 18:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 18:09:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 18:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 18:09:32 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 18:11:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 18:11:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 18:11:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 18:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-02 18:14:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-02 18:14:17 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Helpers/easy_helper.php on line 440.
+ 1 APPPATH/Helpers/easy_helper.php(440): htmlspecialchars(null)
+ 2 APPPATH/Controllers/Admin/Menu.php(74): tableList([...], 1, 2, 1, [...], 'menu_id', true, true, [...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Menu->getList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/personal/SendPulse-Connect/public/index.php')
+INFO - 2024-11-02 18:14:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

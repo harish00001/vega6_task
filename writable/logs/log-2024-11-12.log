@@ -1,0 +1,148 @@
+INFO - 2024-11-12 18:19:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-12 18:23:56 --> mysqli_sql_exception: Table 'users' already exists in /var/www/html/vega6_task/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /var/www/html/vega6_task/system/Database/MySQLi/Connection.php(312): mysqli->query()
+#1 /var/www/html/vega6_task/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/vega6_task/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/vega6_task/system/Database/Forge.php(570): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/vega6_task/app/Database/Migrations/2024-11-12-182244_CreateUsersTable.php(42): CodeIgniter\Database\Forge->createTable()
+#5 /var/www/html/vega6_task/system/Database/MigrationRunner.php(867): App\Database\Migrations\CreateUsersTable->up()
+#6 /var/www/html/vega6_task/system/Database/MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /var/www/html/vega6_task/system/Commands/Database/Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest()
+#8 /var/www/html/vega6_task/system/CLI/Commands.php(70): CodeIgniter\Commands\Database\Migrate->run()
+#9 /var/www/html/vega6_task/system/CLI/Console.php(48): CodeIgniter\CLI\Commands->run()
+#10 /var/www/html/vega6_task/system/Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 /var/www/html/vega6_task/system/Boot.php(104): CodeIgniter\Boot::runCommand()
+#12 /var/www/html/vega6_task/spark(84): CodeIgniter\Boot::bootSpark()
+#13 {main}
+ERROR - 2024-11-12 18:24:43 --> mysqli_sql_exception: Table 'users' already exists in /var/www/html/vega6_task/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /var/www/html/vega6_task/system/Database/MySQLi/Connection.php(312): mysqli->query()
+#1 /var/www/html/vega6_task/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/vega6_task/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/vega6_task/system/Database/Forge.php(570): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/vega6_task/app/Database/Migrations/2024-11-12-182244_CreateUsersTable.php(42): CodeIgniter\Database\Forge->createTable()
+#5 /var/www/html/vega6_task/system/Database/MigrationRunner.php(867): App\Database\Migrations\CreateUsersTable->up()
+#6 /var/www/html/vega6_task/system/Database/MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /var/www/html/vega6_task/system/Commands/Database/Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest()
+#8 /var/www/html/vega6_task/system/CLI/Commands.php(70): CodeIgniter\Commands\Database\Migrate->run()
+#9 /var/www/html/vega6_task/system/CLI/Console.php(48): CodeIgniter\CLI\Commands->run()
+#10 /var/www/html/vega6_task/system/Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 /var/www/html/vega6_task/system/Boot.php(104): CodeIgniter\Boot::runCommand()
+#12 /var/www/html/vega6_task/spark(84): CodeIgniter\Boot::bootSpark()
+#13 {main}
+ERROR - 2024-11-12 18:25:39 --> mysqli_sql_exception: Invalid default value for 'created_at' in /var/www/html/vega6_task/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /var/www/html/vega6_task/system/Database/MySQLi/Connection.php(312): mysqli->query()
+#1 /var/www/html/vega6_task/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/vega6_task/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/vega6_task/system/Database/Forge.php(570): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/vega6_task/app/Database/Migrations/2024-11-12-182244_CreateUsersTable.php(42): CodeIgniter\Database\Forge->createTable()
+#5 /var/www/html/vega6_task/system/Database/MigrationRunner.php(867): App\Database\Migrations\CreateUsersTable->up()
+#6 /var/www/html/vega6_task/system/Database/MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /var/www/html/vega6_task/system/Commands/Database/Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest()
+#8 /var/www/html/vega6_task/system/CLI/Commands.php(70): CodeIgniter\Commands\Database\Migrate->run()
+#9 /var/www/html/vega6_task/system/CLI/Console.php(48): CodeIgniter\CLI\Commands->run()
+#10 /var/www/html/vega6_task/system/Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 /var/www/html/vega6_task/system/Boot.php(104): CodeIgniter\Boot::runCommand()
+#12 /var/www/html/vega6_task/spark(84): CodeIgniter\Boot::bootSpark()
+#13 {main}
+CRITICAL - 2024-11-12 18:34:32 --> ParseError: syntax error, unexpected token "("
+[Method: GET, Route: signup]
+in APPPATH/Controllers/Admin/Auth.php on line 96.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(887): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/vega6_task/public/index.php')
+INFO - 2024-11-12 18:34:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-12 18:35:19 --> Error: Class "App\Models\UserModel" not found
+[Method: POST, Route: registerSubmit]
+in APPPATH/Controllers/Admin/Auth.php on line 146.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Auth->registerSubmit()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/vega6_task/public/index.php')
+CRITICAL - 2024-11-12 18:35:25 --> Error: Class "App\Models\UserModel" not found
+[Method: POST, Route: registerSubmit]
+in APPPATH/Controllers/Admin/Auth.php on line 146.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Auth->registerSubmit()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/vega6_task/public/index.php')
+INFO - 2024-11-12 18:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 18:45:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 18:47:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 18:47:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 18:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-12 18:47:53 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/layout/app.php"
+[Method: GET, Route: dashboard]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(250): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Admin/Dashboard.php(13): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Dashboard->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/vega6_task/public/index.php')
+INFO - 2024-11-12 18:52:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-12 18:52:50 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/layout/app.php"
+[Method: GET, Route: dashboard]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(250): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Admin/Dashboard.php(13): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Dashboard->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/vega6_task/public/index.php')
+INFO - 2024-11-12 18:56:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-12 18:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-12 18:56:53 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/layout/app.php"
+[Method: GET, Route: dashboard]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(250): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Admin/Dashboard.php(13): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Dashboard->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/vega6_task/public/index.php')
+INFO - 2024-11-12 18:58:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-12 18:58:58 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/layout/app.php"
+[Method: GET, Route: dashboard]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(250): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Admin/Dashboard.php(13): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Dashboard->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/vega6_task/public/index.php')
